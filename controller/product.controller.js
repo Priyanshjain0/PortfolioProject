@@ -78,8 +78,10 @@ async function sentmail(){
         subject: `Your Message to Priyansh jain Has Been Sent!`,
         text : `Dear ${formData.name},
         
-      I wanted to express my gratitude for visiting my profile and taking the time to send me a message. Your words mean a lot to me.
-        Rest assured, your message has been successfully delivered to my official email address, and I'm excited to read what you have to say. I make it a point to personally respond to all messages, and I'll do my best to get back to you within 24 hour.
+        I wanted to express my gratitude for visiting my profile and taking the time to send me a message. Your words mean a lot to me.
+        
+        Rest assured, your message has been successfully delivered to my official email address, and I'm excited to read what you have to say. I make it a point to personally respond to all messages, and I'll do my best to get back to you within 24 hours.
+ 
         Once again, thank you for reaching out, and I look forward to our future conversations.
         
         Thank you !`
