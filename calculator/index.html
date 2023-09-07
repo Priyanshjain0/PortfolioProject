@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="tittle">Calculator</title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        background-color: rgb(87, 74, 86);
+        
+      }
+      #tittle{
+        font-family: 'Times New Roman', Times, serif;
+      }
+     
+
+      #calculator {
+        background-color: #ffffff;
+        border: 2px solid #ccc;
+        border-radius: 40px;
+        width: 300px;
+        margin: 30px auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #calculator h2 {
+        text-align: center;
+        font-size: px;
+        margin: 0 0 10px;
+        
+      }
+
+      #calculator #result {
+        width: 100%;
+        height: 50px;
+        font-size: 24px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 2px solid #221f1f;
+        padding: 10px;
+        text-align: right;
+      }
+
+      #calculator .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        
+      }
+
+      #calculator .button {
+        background-color: rgb(80, 57, 78);
+        border: none;
+        color: #fff;
+        width: 23%;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #result {
+          width: 200px; /* set the width of the div */
+          word-wrap: break-word; /* break long words and wrap them to the next line */
+}
+
+      #calculator .button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="calculator">
+      <h2>Calculator</h2>
+      <div type="text" id="result" ></div>
+      <div class="row">
+        <input type="button" class="button" value="1">
+        <input type="button" class="button" value="2">
+        <input type="button" class="button" value="3">
+        <input type="button" class="button" value="+">
+      </div>
+      <div class="row">
+        <input type="button" class="button" value="4">
+        <input type="button" class="button" value="5">
+        <input type="button" class="button" value="6">
+        <input type="button" class="button" value="-">
+      </div>
+      <div class="row">
+        <input type="button" class="button" value="7">
+        <input type="button" class="button" value="8">
+        <input type="button" class="button" value="9">
+        <input type="button" class="button" value="*">
+      </div>
+      <div class="row">
+        <input type="button" class="button" value=".">
+        <input type="button" class="button" value="0">
+        <input type="button" class="button" value="%">
+        <input type="button" class="button" value="/">
+      </div>
+      <div class="row">
+        <!-- <input type="button" class="button" value="AC"> -->
+        <input type="button" class="button" value="C">
+        <input type="button" class="button" value="Del">
+        <input type="button" class="button" value="=">
+      </div>
+    </div>
+    <script src="cal.js"></script>
+  </body>
+</html>

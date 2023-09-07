@@ -1,0 +1,46 @@
+
+body {
+    margin:200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#input{
+    /* height: 20Vh;
+    width: 25vW;
+    background-color: brown; */
+}
+/* input */
+#io{
+    height: 20Vh;
+    width: 50vW;
+    font-size: 50px;
+    text-align: right
+
+}
+#button{
+    display: flex;
+    height: 50Vh;
+    width: 50vW;
+    background-color: brown; 
+    
+}
+/* h4{
+    font-size:x-large;
+    text-align: center;
+} */
+#ac{
+    margin: 3%;
+    height: 10Vh;
+    width: 10vW;
+    background-color: rgb(218, 212, 212); 
+    border:1px solid black;
+    
+}
+#AS{
+    margin: 3%;
+    height: 10Vh;
+    width: 10vW;
+    background-color: rgb(218, 212, 212); 
+
+}
