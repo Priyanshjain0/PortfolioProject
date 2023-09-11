@@ -36,10 +36,10 @@ async function sentmailclient(){
         from:'priyanshjain1610@gmail.com',
         to :"mrpriyanshjain@gmail.com",
         subject: ` Hurray! Priyansh Message your mail `,
-        text : `Hey Priyansh your message Given blow
-                ${formData.name}
-                ${formData.email}
-                ${formData.message}
+        text: `Hey Priyansh your message Given blow
+               Name: ${formData.name}
+               Email : ${formData.email}
+               Message : ${formData.message}
                 `
         
     }
@@ -74,8 +74,8 @@ async function sentmail(){
     //configure mmail
     const mailoption ={
         from:'priyanshjain1610@gmail.com',
-        to :formData.email,
-        subject: `Your Message to Priyansh jain Has Been Sent!`,
+        to:formData.email,
+        subject: `Your Message to Priyansh Jain Has Been Sent!`,
         text : `Dear ${formData.name},
         
         I wanted to express my gratitude for visiting my profile and taking the time to send me a message. Your words mean a lot to me.
