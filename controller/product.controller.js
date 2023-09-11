@@ -99,7 +99,24 @@ async function sentmail(){
         console.log("email not be sent due to this error "+ err);
      }
 }
-sentmail();// dusre mail ko call kya
+sentmail();// 
+
+   const accountSid = 'AC5b1c96b1fc87a9959c27075d9986c380';
+const authToken = 'b8a8222ba674cd00e83476b77cc78c38';
+const client = require('twilio')(accountSid, authToken);
+
+client.messages
+    .create({
+        body:  `Hey Priyansh Message come your Portfolio!
+               Name: ${formData.name}
+               Email: ${formData.email}
+               Message : ${formData.message}
+                `,
+        from: 'whatsapp:+14155238886',
+        to: 'whatsapp:+917534948255'
+    })
+    
+    
 
 
 
